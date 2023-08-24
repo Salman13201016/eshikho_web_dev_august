@@ -1,0 +1,50 @@
+h1{
+    text-align: center;
+    /* margin-bottom: 20px; */
+}
+.calc_main{
+    text-align: center;
+    max-width:400px;
+    margin:0 auto;
+    margin-top: 10px;
+    box-shadow: 0 2px 5px orange;
+    transition: 2s;
+    font: 0;
+    /* transition-delay: 2s; */
+}
+.calc_main:hover{
+    box-shadow: 0 16px 32px silver;
+}
+.calc_head #result{
+    width: 385px;
+    height: 100px;
+    text-align: right;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 5px;
+    letter-spacing: 2px;
+}
+
+.calc_body .btn{
+    width: 96.5px;
+    height: 70px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+}
+
+.calc_body .btn:hover{
+    
+    background-color: pink;
+    color: white;
+    font-size: 20px;
+}
+
+.calc_body .btn_style{
+    background-color: orange;
+    color: white;
+}
+.calc_body .btn_style2{
+    background-color: red;
+    color: white;
+}
