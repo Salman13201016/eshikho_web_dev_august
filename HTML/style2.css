@@ -1,0 +1,13 @@
+#first_p {
+    color:red;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-style:italic;
+    text-align: justify;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-indent: 10%;
+}
+a{
+    text-decoration: none;
+}
