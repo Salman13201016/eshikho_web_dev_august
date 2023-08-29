@@ -1,0 +1,18 @@
+body{
+    margin: 1em;
+}
+.row{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    /* grid-column-gap: 1em;
+    grid-row-gap: 1em; */
+    grid-gap: 1em;
+}
+.col_grid{
+    background-color: orange;
+    padding: 1em;
+    color: white;
+}
+.col_grid:nth-child(even){
+    background-color: black;
+}
