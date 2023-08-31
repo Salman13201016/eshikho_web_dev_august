@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="first_heading">
+        Welcome to JS DOM (Document Object Manipulation)
+    </h1>
+    <input id="f_input" type="text" style="display: none;">
+    <h1>
+        Welcome to JS DOM (Document Object Manipulation)
+    </h1>
+    <button type="button" onclick="colorChange()">
+        Click
+    </button>
+
+    <script>
+        function colorChange(){
+            // document.write("This is a colorchange function")
+
+            document.getElementsByTagName("h1")[0].style.color ="red"
+            document.getElementById("first_heading").style.fontSize="50px"
+            document.getElementById("f_input").style.display="block"
+        }
+    </script>
+</body>
+</html>
