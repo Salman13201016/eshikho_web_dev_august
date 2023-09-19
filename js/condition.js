@@ -31,7 +31,7 @@ else if (day == 4) {
     discount = 30
 }
 else if (day == 5) {
-    discount = 35
+    discount  = 35
 }
 
 else {
